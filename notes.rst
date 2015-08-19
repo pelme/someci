@@ -2,7 +2,9 @@
 08-17-15 
 ========
 
+
 .. contents:: Table of Contents
+
 
 ********************************************
 What are our expectations on a build server?
@@ -44,12 +46,11 @@ Maik
 ====
 - best of both worlds travis/jenkins
 - UI that presents results
-- clear definition of how a job is structured (maybe changeable 
-using plugins), maybe use Bamboo's definition: a job contains stages (run in 
-parallel) and stages contain tasks (run sequentially)
+- clear definition of how a job is structured (maybe changeable using plugins), maybe use Bamboo's definition: a job contains stages (run in parallel) and stages contain tasks (run sequentially)
 - batteries included for python best practises
 - dynamic branches (plan branches in bamboo)
 - platform independent configurations
+
 
 *********************************
 Additional thoughts and questions
@@ -58,13 +59,11 @@ Additional thoughts and questions
 Ronny
 =====
 - send test results back to the build server (idea from devpi?)
-- keep it as simple as possible and stick to pure python (to be 
-platform agnostic)
+- keep it as simple as possible and stick to pure python (to be platform agnostic)
 
 Ronny's CI project
 ------------------
-- uses couchdb to sync state changes to worker nodes. puts job description 
-into a document and lets couchdb sync docs to nodes
+- uses couchdb to sync state changes to worker nodes. puts job description into a document and lets couchdb sync docs to nodes
 
 Projects to look at
 ===================
