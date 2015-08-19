@@ -12,7 +12,7 @@ What are our expectations on a build server?
 
 Ronny
 =====
-- CI server with documents in couchdb
+
 - code checks, linters, deployment step
 - run the complete build pipeline locally
 - superset of tox
